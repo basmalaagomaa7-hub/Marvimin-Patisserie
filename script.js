@@ -1,12 +1,12 @@
 const products={
- 'chocolate-chip':{name:'Chocolate Chip',price:25,img:'assets/photos/photo-3.jpeg'},
- 'mini-cookies':{name:'4 pcs Mini Cookies',price:30,img:'assets/photos/photo-8.jpeg'},
- 'nutella':{name:'Nutella',price:30,img:'assets/photos/photo-3.jpeg'},
- 'lotus':{name:'Lotus',price:35,img:'assets/photos/photo-10.jpeg'},
- 'red-velvet':{name:'Red Velvet',price:30,img:'assets/photos/photo-6.jpeg'},
- 'cocoa':{name:'Cocoa Cookie',price:33,img:'assets/photos/photo-5.jpeg'},
+ 'chocolate-chip':{name:'Chocolate Chip',price:25,img:'assets/photos/photo-8.jpeg'},
+ 'mini-cookies':{name:'4 pcs Mini Cookies',price:30,img:'assets/photos/photo-12.jpeg'},
+ 'nutella':{name:'Nutella',price:30,img:'assets/photos/photo-8.jpeg'},
+ 'lotus':{name:'Lotus',price:35,img:'assets/photos/photo-11.jpeg'},
+ 'red-velvet':{name:'Red Velvet',price:30,img:'assets/photos/photo-7.jpeg'},
+ 'cocoa':{name:'Cocoa Cookie',price:33,img:'assets/photos/photo-10.jpeg'},
  'chocolate-chunk':{name:'Chocolate Chunk',price:140,img:'assets/photos/photo-1.jpeg'},
- 'cookie-cake-cupcake':{name:'Cookie Cake Cupcake',price:70,img:'assets/photos/photo-9.jpeg'}
+ 'cookie-cake-cupcake':{name:'Cookie Cake Cupcake',price:70,img:'assets/photos/photo-13.jpeg'}
 };
 let cart=JSON.parse(localStorage.getItem('marviminCart')||'{}');
 const $=s=>document.querySelector(s), $$=s=>document.querySelectorAll(s);
