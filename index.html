@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Marvimin Patisserie — baked with love, made to make your day a little sweeter." />
+  <title>Marvimin Patisserie | Have a Cookie</title>
+  <link rel="icon" href="assets/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="announcement"><span>✦</span> Freshly baked • Made with love • <span>♡</span> Order through WhatsApp <span>✦</span></div>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#home" aria-label="Marvimin Patisserie home"><img src="assets/logo.png" alt="Marvimin Patisserie logo" /></a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#home">Home</a><a href="#new">New</a><a href="#menu">Menu</a><a href="#story">Our Story</a><a href="#love">Love Notes</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" id="themeToggle" aria-label="Toggle dark mode" title="Toggle theme"><span id="themeIcon">☾</span></button>
+      <button class="cart-btn" id="openCart"><span>Cart</span><b id="cartCount">0</b></button>
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <div class="mobile-nav" id="mobileNav">
+    <a href="#home">Home</a><a href="#new">New</a><a href="#menu">Menu</a><a href="#story">Our Story</a><a href="#love">Love Notes</a>
+  </div>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span>♡</span> Have a cookie <span>♡</span></div>
+        <h1>Baked with love,<br><em>made to make</em><br>your day a little sweeter<span class="heart">♡</span></h1>
+        <p>Freshly baked cookies, gooey centers and a little sweetness made especially for you.</p>
+        <div class="hero-actions"><a class="btn btn-primary" href="#menu">Explore the menu <span>→</span></a><a class="btn btn-ghost" href="#new">See what's new <span>✦</span></a></div>
+        <div class="hero-note"><span>✦</span> Fresh ingredients <span>•</span> Baked to order <span>✦</span></div>
+      </div>
+      <div class="hero-visual reveal delay-1">
+        <div class="hero-orbit orbit-a"></div><div class="hero-orbit orbit-b"></div>
+        <div class="hero-photo-wrap"><img src="assets/logo.png" alt="Fresh Marvimin cookies" /></div>
+        <div class="floating-tag tag-top">new<br><strong>flavors</strong> ✦</div>
+        <div class="floating-tag tag-bottom">made<br>with ♡</div>
+        <span class="doodle doodle-1">✦</span><span class="doodle doodle-2">♡</span><span class="doodle doodle-3">✧</span>
+      </div>
+    </section>
+
+    <section class="marquee" aria-label="Marvimin message"><div>CHOCOLATE &nbsp; ✦ &nbsp; LOTUS &nbsp; ✦ &nbsp; RED VELVET &nbsp; ✦ &nbsp; COCOA &nbsp; ✦ &nbsp; COOKIE CAKE &nbsp; ✦ &nbsp; CHOCOLATE &nbsp; ✦ &nbsp;</div></section>
+
+    <section class="section intro section-narrow reveal">
+      <div class="section-kicker">a little sweetness</div>
+      <h2>Pick your <em>happiness.</em></h2>
+      <p class="lead">Whether you want one warm cookie for yourself or a whole box to share, there is always a reason to have a cookie.</p>
+      <div class="category-grid">
+        <a href="#classic-cookies" class="category-card category-one"><span class="category-icon">🍪</span><span><small>01</small><strong>Classic Cookies</strong><em>Simple. Chocolatey. Perfect.</em></span><b>↗</b></a>
+        <a href="#stuffed-cookies" class="category-card category-two"><span class="category-icon">♡</span><span><small>02</small><strong>Stuffed Cookies</strong><em>Soft outside, gooey inside.</em></span><b>↗</b></a>
+        <a href="#cookie-cake" class="category-card category-three"><span class="category-icon">✦</span><span><small>03</small><strong>Cookie Cake</strong><em>For when one cookie isn't enough.</em></span><b>↗</b></a>
+      </div>
+    </section>
+
+    <section class="section new-section" id="new">
+      <div class="section-heading reveal"><div><div class="section-kicker">fresh from the oven</div><h2>Just baked. <em>Just added.</em></h2></div><p>Meet the latest sweet additions to the Marvimin menu.</p></div>
+      <div class="new-grid">
+        <article class="new-card reveal"><div class="new-image"><img src="assets/photos/photo-11.jpeg" alt="Lotus cookie" /><span class="new-sticker">NEW ✦</span></div><div class="new-info"><div><span class="tiny-label">STUFFED COOKIE</span><h3>Lotus</h3><p>Soft cookie stuffed with Lotus Biscoff spread.</p></div><strong>35 <small>L.E</small></strong></div><button class="text-add" data-add="lotus">Add to sweet box +</button></article>
+        <article class="new-card featured reveal delay-1"><div class="new-image"><img src="assets/photos/photo-7.jpeg" alt="Red velvet cookie" /><span class="new-sticker">NEW ✦</span></div><div class="new-info"><div><span class="tiny-label">STUFFED COOKIE</span><h3>Red Velvet</h3><p>Red velvet cookie stuffed with creamy white chocolate.</p></div><strong>30 <small>L.E</small></strong></div><button class="text-add" data-add="red-velvet">Add to sweet box +</button></article>
+        <article class="new-card reveal delay-2"><div class="new-image"><img src="assets/photos/photo-10.jpeg" alt="Cocoa cookie" /><span class="new-sticker">NEW ✦</span></div><div class="new-info"><div><span class="tiny-label">STUFFED COOKIE</span><h3>Cocoa Cookie</h3><p>Rich cocoa cookie stuffed with smooth chocolate.</p></div><strong>33 <small>L.E</small></strong></div><button class="text-add" data-add="cocoa">Add to sweet box +</button></article>
+      </div>
+    </section>
+
+    <section class="section menu-section" id="menu">
+      <div class="section-heading reveal"><div><div class="section-kicker">have a cookie</div><h2>The <em>menu.</em></h2></div><p>Choose your favorites, add them to your sweet box and send your order straight to Marvimin.</p></div>
+      <div class="menu-layout">
+        <div class="menu-list">
+          <div class="menu-group reveal" id="classic-cookies"><div class="group-title"><span>01</span><h3>Classic Cookies</h3></div><div class="product-list"><article class="product-card"><img src="assets/photos/photo-8.jpeg" alt="Chocolate chip cookies" /><div class="product-copy"><span>CLASSIC</span><h4>Chocolate Chip</h4><p>Golden cookie loaded with chocolate chips.</p></div><div class="product-buy"><strong>25 <small>L.E</small></strong><button data-add="chocolate-chip" aria-label="Add Chocolate Chip">+</button></div></article><article class="product-card"><img src="assets/photos/photo-12.jpeg" alt="Mini cookies" /><div class="product-copy"><span>CLASSIC</span><h4>4 pcs Mini Cookies</h4><p>A little box of four bite-sized cookies.</p></div><div class="product-buy"><strong>30 <small>L.E</small></strong><button data-add="mini-cookies" aria-label="Add mini cookies">+</button></div></article></div></div>
+          <div class="menu-group reveal" id="stuffed-cookies"><div class="group-title"><span>02</span><h3>Stuffed Cookies</h3></div><div class="product-list"><article class="product-card"><img src="assets/photos/photo-8.jpeg" alt="Nutella cookie" /><div class="product-copy"><span>STUFFED</span><h4>Nutella</h4><p>Soft cookie stuffed with creamy Nutella.</p></div><div class="product-buy"><strong>30 <small>L.E</small></strong><button data-add="nutella" aria-label="Add Nutella">+</button></div></article><article class="product-card is-new"><img src="assets/photos/photo-11.jpeg" alt="Lotus cookie" /><div class="product-copy"><span>STUFFED <b>NEW</b></span><h4>Lotus</h4><p>Soft cookie stuffed with Lotus Biscoff spread.</p></div><div class="product-buy"><strong>35 <small>L.E</small></strong><button data-add="lotus" aria-label="Add Lotus">+</button></div></article><article class="product-card is-new"><img src="assets/photos/photo-7.jpeg" alt="Red Velvet cookie" /><div class="product-copy"><span>STUFFED <b>NEW</b></span><h4>Red Velvet</h4><p>Red velvet cookie stuffed with creamy white chocolate.</p></div><div class="product-buy"><strong>30 <small>L.E</small></strong><button data-add="red-velvet" aria-label="Add Red Velvet">+</button></div></article><article class="product-card is-new"><img src="assets/photos/photo-10.jpeg" alt="Cocoa cookie" /><div class="product-copy"><span>STUFFED <b>NEW</b></span><h4>Cocoa Cookie</h4><p>Rich cocoa cookie stuffed with smooth chocolate.</p></div><div class="product-buy"><strong>33 <small>L.E</small></strong><button data-add="cocoa" aria-label="Add Cocoa Cookie">+</button></div></article></div></div>
+          <div class="menu-group reveal" id="cookie-cake"><div class="group-title"><span>03</span><h3>Cookie Cake</h3></div><div class="product-list"><article class="product-card wide"><img src="assets/photos/photo-1.jpeg" alt="Chocolate Chunk cookie cake" /><div class="product-copy"><span>COOKIE CAKE</span><h4>Chocolate Chunk</h4><p>Soft, thick &amp; gooey cookie cake loaded with rich chocolate.</p></div><div class="product-buy"><strong>140 <small>L.E</small></strong><button data-add="chocolate-chunk" aria-label="Add Chocolate Chunk">+</button></div></article><article class="product-card wide"><img src="assets/photos/photo-13.jpeg" alt="Cookie cake cupcake" /><div class="product-copy"><span>COOKIE CAKE CUPCAKE</span><h4>Cookie Cake Cupcake</h4><p>The same delicious cookie cake, in a cupcake size.</p></div><div class="product-buy"><strong>70 <small>L.E</small></strong><button data-add="cookie-cake-cupcake" aria-label="Add cookie cake cupcake">+</button></div></article></div></div>
+        </div>
+        <aside class="menu-side reveal"><div class="menu-poster"><img src="assets/menu-original.jpeg" alt="Original Marvimin menu" /><div class="poster-caption"><span>Prefer the original?</span><a href="assets/menu-original.jpeg" target="_blank">View full menu ↗</a></div></div></aside>
+      </div>
+    </section>
+
+    <section class="section story-section" id="story">
+      <div class="story-photo reveal"><img src="assets/photos/photo-2.jpeg" alt="Marvimin cookies in a box" /><span class="photo-note">a box full of happiness ♡</span></div>
+      <div class="story-copy reveal delay-1"><div class="section-kicker">made with love</div><h2>More than a cookie.<br><em>A little moment.</em></h2><p>Marvimin is all about turning an ordinary day into a sweeter one — with fresh ingredients, warm cookies and that first bite you immediately want to share.</p><div class="promise-grid"><div><b>♡</b><strong>Fresh ingredients</strong></div><div><b>✦</b><strong>Baked to order</strong></div><div><b>♡</b><strong>Made with love</strong></div></div><a class="btn btn-primary" href="#menu">Find your favorite →</a></div>
+    </section>
+
+    <section class="section gallery-section"><div class="section-heading reveal"><div><div class="section-kicker">from our kitchen</div><h2>A little closer to the <em>cookie.</em></h2></div><p>Real Marvimin moments — no stock photos, just cookies doing what cookies do best.</p></div><div class="kitchen-marquee" aria-label="Marvimin kitchen photos"><div class="kitchen-track"><div class="kitchen-set"><figure class="kitchen-frame"><img src="assets/kitchen/1.jpeg" alt="Marvimin kitchen moment 1" loading="lazy" /></figure><figure class="kitchen-frame"><img src="assets/kitchen/2.jpeg" alt="Marvimin kitchen moment 2" loading="lazy" /></figure><figure class="kitchen-frame"><img src="assets/kitchen/3.jpeg" alt="Marvimin kitchen moment 3" loading="lazy" /></figure><figure class="kitchen-frame"><img src="assets/kitchen/4.jpeg" alt="Marvimin kitchen moment 4" loading="lazy" /></figure><figure class="kitchen-frame"><img src="assets/kitchen/5.jpeg" alt="Marvimin kitchen moment 5" loading="lazy" /></figure><figure class="kitchen-frame"><img src="assets/kitchen/6.jpeg" alt="Marvimin kitchen moment 6" loading="lazy" /></figure><figure class="kitchen-frame"><img src="assets/kitchen/7.jpeg" alt="Marvimin kitchen moment 7" loading="lazy" /></figure><figure class="kitchen-frame"><img src="assets/kitchen/8.jpeg" alt="Marvimin kitchen moment 8" loading="lazy" /></figure><figure class="kitchen-frame"><img src="assets/kitchen/9.jpeg" alt="Marvimin kitchen moment 9" loading="lazy" /></figure><figure class="kitchen-frame"><img src="assets/kitchen/10.jpeg" alt="Marvimin kitchen moment 10" loading="lazy" /></figure></div><div class="kitchen-set" aria-hidden="true"><figure class="kitchen-frame"><img src="assets/kitchen/1.jpeg" alt="Marvimin kitchen moment 1" loading="lazy" /></figure><figure class="kitchen-frame"><img src="assets/kitchen/2.jpeg" alt="Marvimin kitchen moment 2" loading="lazy" /></figure><figure class="kitchen-frame"><img src="assets/kitchen/3.jpeg" alt="Marvimin kitchen moment 3" loading="lazy" /></figure><figure class="kitchen-frame"><img src="assets/kitchen/4.jpeg" alt="Marvimin kitchen moment 4" loading="lazy" /></figure><figure class="kitchen-frame"><img src="assets/kitchen/5.jpeg" alt="Marvimin kitchen moment 5" loading="lazy" /></figure><figure class="kitchen-frame"><img src="assets/kitchen/6.jpeg" alt="Marvimin kitchen moment 6" loading="lazy" /></figure><figure class="kitchen-frame"><img src="assets/kitchen/7.jpeg" alt="Marvimin kitchen moment 7" loading="lazy" /></figure><figure class="kitchen-frame"><img src="assets/kitchen/8.jpeg" alt="Marvimin kitchen moment 8" loading="lazy" /></figure><figure class="kitchen-frame"><img src="assets/kitchen/9.jpeg" alt="Marvimin kitchen moment 9" loading="lazy" /></figure><figure class="kitchen-frame"><img src="assets/kitchen/10.jpeg" alt="Marvimin kitchen moment 10" loading="lazy" /></figure></div></div></div></section>      <section class="section love-section"</section>
+
+    <section class="section love-section" id="love"><div class="section-heading centered reveal"><div class="section-kicker">love notes</div><h2>They said it better <em>than we could.</em></h2><p>Real feedback from people who have had a little Marvimin moment.</p></div><div class="feedback-strip" aria-label="Customer feedback photos"><div class="feedback-track"><article class="feedback-card feedback-1"><img src="assets/feedback/feedback-1.jpeg" alt="Customer feedback 1" loading="lazy" /></article><article class="feedback-card feedback-2"><img src="assets/feedback/feedback-2.jpeg" alt="Customer feedback 2" loading="lazy" /></article><article class="feedback-card feedback-3"><img src="assets/feedback/feedback-3.jpeg" alt="Customer feedback 3" loading="lazy" /></article><article class="feedback-card feedback-4"><img src="assets/feedback/feedback-4.jpeg" alt="Customer feedback 4" loading="lazy" /></article><article class="feedback-card feedback-5"><img src="assets/feedback/feedback-5.jpeg" alt="Customer feedback 5" loading="lazy" /></article><article class="feedback-card feedback-6"><img src="assets/feedback/feedback-6.jpeg" alt="Customer feedback 6" loading="lazy" /></article><article class="feedback-card feedback-7"><img src="assets/feedback/feedback-7.jpeg" alt="Customer feedback 7" loading="lazy" /></article><article class="feedback-card feedback-8"><img src="assets/feedback/feedback-8.jpeg" alt="Customer feedback 8" loading="lazy" /></article><article class="feedback-card feedback-9"><img src="assets/feedback/feedback-9.jpeg" alt="Customer feedback 9" loading="lazy" /></article></div></div></section>      <section class="section social-section"</section>
+
+    <section class="section social-section"><div class="social-card reveal"><div class="social-copy"><span class="instagram-mark">◎</span><div class="section-kicker">come say hi</div><h2>More sweetness<br><em>on Instagram.</em></h2><p>Follow <strong>@marvimin.patisserie</strong> for fresh drops, boxes, behind-the-scenes and all the cookie temptation.</p><a class="btn btn-primary" href="https://www.instagram.com/marvimin.patisserie" target="_blank" rel="noreferrer">Follow on Instagram ↗</a></div><div class="social-images"><img src="assets/photos/photo-1.jpeg" alt="Marvimin cookies" /><img src="assets/photos/photo-7.jpeg" alt="Marvimin cookies" /><img src="assets/photos/photo-6.jpeg" alt="Marvimin cookies" /></div></div></section>
+
+    <section class="section cta-section"><div class="cta-card reveal"><span class="cta-cookie">🍪</span><div><div class="section-kicker">ready for a sweet moment?</div><h2>Let's make your day<br><em>a little sweeter.</em></h2></div><button class="btn btn-light" id="ctaOrder">Start an order <span>→</span></button></div></section>
+  </main>
+
+  <footer class="footer"><div class="footer-brand"><img src="assets/logo.png" alt="Marvimin Patisserie logo" /><p>Baked with love, made to make your day a little sweeter&lt;3</p></div><div class="footer-links"><div><span>EXPLORE</span><a href="#menu">Menu</a><a href="#new">New items</a><a href="#story">Our story</a></div><div><span>CONNECT</span><a href="https://www.instagram.com/marvimin.patisserie" target="_blank" rel="noreferrer">Instagram</a><a href="https://chat.whatsapp.com/HgAnynw2Q0P2Axx8EnHLCW?s=cl&p=i&mlu=0&ilr=4" target="_blank" rel="noreferrer">WhatsApp group</a><a href="https://wa.me/201149595776" target="_blank" rel="noreferrer">Order on WhatsApp</a></div></div><div class="footer-bottom"><span>© 2026 Marvimin Patisserie</span><a href="#top">Back to top ↑</a></div></footer>
+
+  <div class="cart-overlay" id="cartOverlay"></div><aside class="cart-drawer" id="cartDrawer" aria-label="Shopping cart"><div class="cart-head"><div><span class="section-kicker">your sweet box</span><h2>Cart <span id="cartTitleCount">(0)</span></h2></div><button class="close-btn" id="closeCart">×</button></div><div class="cart-body" id="cartBody"></div><div class="cart-foot"><div class="cart-total"><span>Total</span><strong id="cartTotal">0 L.E</strong></div><button class="btn btn-primary full" id="checkoutBtn">Continue to WhatsApp <span>↗</span></button><p class="cart-hint">Your order will open in WhatsApp so Marvimin can confirm availability, delivery and payment details with you.</p></div></aside>
+
+  <div class="toast" id="toast">Added to your sweet box ♡</div>
+  <div class="order-modal" id="orderModal"><div class="modal-backdrop" data-close-modal></div><div class="modal-card"><button class="close-btn modal-close" data-close-modal>×</button><div class="section-kicker">almost there</div><h2>Where should we send <em>your cookies?</em></h2><p>Fill in the details and we'll prepare a WhatsApp order message for you.</p><form id="orderForm"><label>Name<input required id="customerName" placeholder="Your name" /></label><label>Phone<input required id="customerPhone" type="tel" placeholder="01x xxx xxxx" /></label><label>Area / Address<input required id="customerAddress" placeholder="Area and delivery address" /></label><label>Notes <span>(optional)</span><textarea id="customerNotes" placeholder="Anything Marvimin should know?"></textarea></label><button class="btn btn-primary full" type="submit">Open WhatsApp order ↗</button></form></div></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
